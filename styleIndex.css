@@ -1,0 +1,76 @@
+header{
+    padding-top: 12px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgb(255, 115, 0);
+    z-index: 2;
+    /* background-image: linear-gradient(to bottom right,purple, black); */
+}    
+
+img{
+    width: 90px;
+    height: 50px;
+    margin-left: 90px;
+    margin-top: 4px;
+}
+
+nav ul {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 20px;
+    color: #ffff;
+}
+
+a{
+    color: #ffff;
+    display: flex;
+    
+}
+
+a:hover{
+    color: #ffff;
+    
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 1400vh;
+    background-image: url('bg.jpg'); /* Ganti dengan path atau URL gambar Anda */
+     /* Untuk memastikan gambar mencakup seluruh latar belakang */
+    background-repeat: no-repeat;
+}
+
+.gambar{
+    padding-top: 1%;
+    height: 8%;
+    width: 100%;
+    /* padding-right: 10%; */
+    /* padding: auto; */
+    padding-left: 0%;
+    
+}
+
+#card{
+    margin-top: 50%;
+}
+
+.card-body .card-title{
+    color: red;
+}
+
+
+/* .info-sm{
+    display: flex;
+    justify-content: right;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    margin-top: 4px;
+} */
